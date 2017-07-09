@@ -65,6 +65,9 @@ add_action( 'admin_head', function () {
   // Remove Users -> Your profile
   remove_submenu_page( 'users.php', 'profile.php' );
 
+  // Remove Profile
+  remove_submenu_page( 'users.php', 'profile.php' );
+  
   // Remove Tools
   remove_menu_page( 'tools.php' );
   // Remove Tools -> Available Tools
